@@ -1,5 +1,11 @@
 <!-- markdownlint-disable MD036 MD024-->
 # CHANGELOG
+## 主要变化(2.9.7)
+* 官方抽奖判断未获取到内容
+
+
+_如果之前版本小于上一版本,请查看[CHANGELOG](https://github.com/shanmiteko/LotteryAutoScript/blob/main/CHANGELOG.md)变更说明_
+
 ## 主要变化(2.9.0)
 * 1e7d8b2 feat: 动态详情新老api共存
 * fc41750 fix: 源rid_str获取
