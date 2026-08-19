@@ -113,7 +113,8 @@ module.exports = Object.freeze({
         GOTIFY_URL: '',
         GOTIFY_APPKEY: '',
         FS_BOT_WEBHOOK: '',
-        FS_BOT_SECRET: ''
+        FS_BOT_SECRET: '',
+        WXPUSHER_TOKEN: ''
     },
 
     /**
