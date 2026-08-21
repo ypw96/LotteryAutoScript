@@ -52,6 +52,15 @@ module.exports = Object.freeze({
         APIs: ['file://lottery_info_1.json'],
 
         /**
+         * 从lottery_dyids目录下指定文件名读取抽奖信息(对应lottery_info_all_future.json格式)
+         * 数据结构: { "lottery": [ {...}, {...} ] }
+         * 目录不存在或文件不存在不会报错(直接返回空数组)
+         * @example
+         * ["lottery_info_all_future.json"]
+         */
+        APIS2: [],
+
+        /**
          * lottery_dyids目录下抽奖动态文件名(如dyids.txt)
          * 一行一个dyids(非数字字符分割即可)
          */
@@ -64,6 +73,7 @@ module.exports = Object.freeze({
          * * 2 - Articles
          * * 3 - APIs
          * * 4 - TxT
+         * * 5 - APIS2
          * @example
          * [3,2,1,0]
          * [1,2,1,2,1]
